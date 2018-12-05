@@ -1,17 +1,18 @@
 import React from 'react';
 
-export default class Square extends React.Component {
-    constructor(props) {
-        super(props);
-        
-        this.state = {
+export default function Square (props) {
+    let isHidden = props.hidden;
 
-        };
+    if(props.number && props.number.revealed) {
+        return <React.Fragment></React.Fragment>
     }
 
-    render() {
-        return (
-            <div>Square</div>
-        );
-    }
+    return (
+        <div
+            className={"square" + (isHidden ? " hidden" : "")}
+            onClick={() => {props.number ? props.onNumberClick(props.number.number) : props.onBlankClick()}}>
+            {props.number &&
+                props.number.number}
+        </div>
+    );
 }

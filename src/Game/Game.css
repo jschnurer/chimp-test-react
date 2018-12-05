@@ -1,0 +1,35 @@
+.game {
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.game table {
+    border: 1px black solid;
+    width: 100%;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5em;
+}
+
+.hidden {
+    background-color: black;
+}
+
+.startButton {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.2em;
+}
