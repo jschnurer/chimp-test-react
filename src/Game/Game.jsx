@@ -111,6 +111,17 @@ export default class Game extends React.Component {
     render() {
         return (
             <div className="game">
+                <h2>Chimp Memory Test</h2>
+                <p>Inspired by <a href="https://www.youtube.com/watch?v=ktkjUjcZid0">MIND FIELD S3 E1 on Youtube.</a></p>
+                <p>
+                    You will be shown a series of numbers from 1-9.
+                    When you click the Start button the field of numbers will be hidden.
+                    You must then click the position of the hidden numbers from 1 to 9 in order.
+                </p>
+                <p>
+                    There are chimpanzees that are able to memorize the positions of the numbers in under 1 second.
+                    Good luck. :)
+                </p>
                 <Board
                     width={this.boardWidth}
                     height={this.boardHeight}
