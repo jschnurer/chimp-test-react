@@ -15,7 +15,7 @@ export default function Square (props) {
         <div
             className={"square" + (isHidden ? " hidden" : "")}
             onClick={() => {props.number ? props.onNumberClick(props.number.number) : props.onBlankClick()}}>
-            {props.number &&
+            {props.number && !isHidden &&
                 props.number.number}
         </div>
     );
