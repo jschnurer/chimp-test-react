@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/chimp-test-react/static/js/runtime~main.ca2dd2b2.js"
   },
   {
-    "revision": "33bc65ed5e64fb4efe61bfdd695a2319",
+    "revision": "014dc88fc8f91b067ee2f0348a509cb3",
     "url": "/chimp-test-react/index.html"
   }
 ];
