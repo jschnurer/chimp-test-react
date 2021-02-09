@@ -7,6 +7,10 @@ export default function Square (props) {
         return <React.Fragment></React.Fragment>
     }
 
+    if (!props.number) {
+      return <React.Fragment></React.Fragment>
+    }
+
     return (
         <div
             className={"square" + (isHidden ? " hidden" : "")}
