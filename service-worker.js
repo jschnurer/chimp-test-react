@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chimp-test-react/precache-manifest.c5507d4dc9c6bcaccf9af211b989bd6e.js"
+  "/chimp-test-react/precache-manifest.90970e8ba774548a0528286fcfb7dfa9.js"
 );
 
 workbox.clientsClaim();
